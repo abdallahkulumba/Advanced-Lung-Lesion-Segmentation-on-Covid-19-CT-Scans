@@ -41,7 +41,7 @@ The project implements and compares multiple U-Net variants with attention mecha
 - **Batch Size**: 8
 - **Optimizer**: AdamW with weight decay
 - **Learning Rate**: 0.0005 with ReduceLROnPlateau scheduler
-- **Loss Function**: Combined BCE + Dice Loss (90% BCE, 10% Dice)
+- **Loss Function**: Combined Loss: Dice Loss, IoU Loss, Focal loss.
 - **Metrics**: Dice Coefficient, IoU Score
 - **Early Stopping**: Patience of 5 epochs
 - **Epochs**: 35-60 depending on model
@@ -51,9 +51,9 @@ Performance on test set:
 
 | Model | Dice Coefficient | IoU Score | Loss |
 |-------|------------------|-----------|------|
-| TransUNet | 0.85 | 0.78 | 0.12 |
-| Attention U-Net | 0.87 | 0.80 | 0.10 |
-| Improved Attention U-Net | 0.89 | 0.82 | 0.08 |
+| TransUNet | 0.84 | 0.74 | 0.12 |
+| Attention U-Net | 0.85 | 0.75 | 0.10 |
+| Improved Attention U-Net | 0.86 | 0.75 | 0.08 |
 
 ## Project Structure
 ```
