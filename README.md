@@ -1,5 +1,5 @@
 # Lung Lesion Segmentation from CT Scans
-![output](output.PNG)
+![output](output.png)
 ## Overview
 This project focuses on the segmentation of lung lesions from CT scan images using deep learning techniques. The goal is to accurately identify and delineate lesions in medical images, which can assist in the diagnosis and treatment of lung-related diseases such as COVID-19.
 
@@ -120,4 +120,5 @@ lung-lesion-segmentation/
 
 ## License
 This project is for educational and research purposes. Please cite appropriately if used in publications.
+
 
