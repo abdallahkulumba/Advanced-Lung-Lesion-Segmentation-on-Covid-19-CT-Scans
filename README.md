@@ -15,7 +15,7 @@ The project utilizes the "COVID-19 CT Scan Lesion Segmentation Dataset" from Kag
    - CLAHE (Contrast Limited Adaptive Histogram Equalization) for contrast enhancement
    - Gaussian smoothing to reduce noise
    - Removal of completely black masks (no lesion information)
-3. **Data Splitting**: 80% train, 20% test
+3. **Data Splitting**: 80% train, 10% validation, 10%test
 4. **Augmentation**: Applied to small lesions (<1% of image size) including horizontal/vertical flips and rotations
 
 ## Models Implemented
